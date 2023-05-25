@@ -5,7 +5,6 @@ using DG.Tweening;
 
 public class Lock : MonoBehaviour
 {
-    public bool isVersion2;
     public Piece[] pieces;
     private int index = 0;
     public GameObject locker;
@@ -30,7 +29,6 @@ public class Lock : MonoBehaviour
         lockpickColor = lockPick.GetComponent<MeshRenderer>().material.color;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(open)
@@ -61,78 +59,44 @@ public class Lock : MonoBehaviour
                 lockPick.transform.DOMoveZ(position, 0.5f);
             }
         }
-        //if (isVersion2)
-        //{
-            if (Input.GetKeyDown(KeyCode.D))
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            if (CheckMovement(Side.Right))
             {
-                if (CheckMovement(Side.Right))
-                {
-                    Move(Side.Right);
-                    lockPick.GetComponent<MeshRenderer>().material.color = lockpickColor;
-                }
-
-                else
-                {
-                    Sequence mySequence = DOTween.Sequence();
-                    mySequence.Append(lockPick.transform.DOShakeRotation(0.75f, 0.75f));
-                    mySequence.Join(lockPick.GetComponent<MeshRenderer>().material.DOColor(Color.red, 0.75f));
-                    mySequence.Join(rightWall.GetComponent<MeshRenderer>().material.DOColor(Color.red, 0.75f));
-                    mySequence.Join(rightWall.transform.DOShakeRotation(0.75f, 0.75f));
-                    mySequence.Append(lockPick.GetComponent<MeshRenderer>().material.DOColor(Color.white, 0.75f).OnComplete(Charge));
-                    mySequence.Join(rightWall.GetComponent<MeshRenderer>().material.DOColor(Color.white, 0.75f));
-                }
+                Move(Side.Right);
+                lockPick.GetComponent<MeshRenderer>().material.color = lockpickColor;
             }
-            if (Input.GetKeyDown(KeyCode.A))
+
+            else
             {
-                if (CheckMovement(Side.Left))
-                {
-                    Move(Side.Left);
-                    lockPick.GetComponent<MeshRenderer>().material.color = lockpickColor;
-                }
-                else
-                {
-                    Sequence mySequence = DOTween.Sequence();
-                    mySequence.Append(lockPick.transform.DOShakeRotation(0.75f, 0.75f));
-                    mySequence.Join(lockPick.GetComponent<MeshRenderer>().material.DOColor(Color.red, 0.75f));
-                    mySequence.Join(leftWall.GetComponent<MeshRenderer>().material.DOColor(Color.red, 0.75f));
-                    mySequence.Join(leftWall.transform.DOShakeRotation(0.75f, 0.75f));
-                    mySequence.Append(lockPick.GetComponent<MeshRenderer>().material.DOColor(Color.white, 0.75f).OnComplete(Charge));
-                    mySequence.Join(leftWall.GetComponent<MeshRenderer>().material.DOColor(Color.white, 0.75f));
-                }
+                Sequence mySequence = DOTween.Sequence();
+                mySequence.Append(lockPick.transform.DOShakeRotation(0.75f, 0.75f));
+                mySequence.Join(lockPick.GetComponent<MeshRenderer>().material.DOColor(Color.red, 0.75f));
+                mySequence.Join(rightWall.GetComponent<MeshRenderer>().material.DOColor(Color.red, 0.75f));
+                mySequence.Join(rightWall.transform.DOShakeRotation(0.75f, 0.75f));
+                mySequence.Append(lockPick.GetComponent<MeshRenderer>().material.DOColor(Color.white, 0.75f).OnComplete(Charge));
+                mySequence.Join(rightWall.GetComponent<MeshRenderer>().material.DOColor(Color.white, 0.75f));
             }
-        //}
-        //else
-        //{
-        //    if (Input.GetKey(KeyCode.D))
-        //    {
-        //        if (CheckMovement(Side.Right))
-        //        {
-        //            Move(Side.Right);
-        //            lockPick.GetComponent<MeshRenderer>().material.color = lockpickColor;
-        //        }
-        //        else
-        //        {
-        //            lockPick.GetComponent<MeshRenderer>().material.color = Color.red;
-        //            Charge();
-
-        //        }
-        //    }
-        //    if (Input.GetKey(KeyCode.A))
-        //    {
-        //        if (CheckMovement(Side.Left))
-        //        {
-        //            Move(Side.Left);
-        //            lockPick.GetComponent<MeshRenderer>().material.color = lockpickColor;
-
-        //        }
-        //        else
-        //        {
-        //            Charge();
-        //            lockPick.GetComponent<MeshRenderer>().material.color = Color.red;
-        //        }
-        //    }
-        //}
-        
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            if (CheckMovement(Side.Left))
+            {
+                Move(Side.Left);
+                lockPick.GetComponent<MeshRenderer>().material.color = lockpickColor;
+            }
+            else
+            {
+                Sequence mySequence = DOTween.Sequence();
+                mySequence.Append(lockPick.transform.DOShakeRotation(0.75f, 0.75f));
+                mySequence.Join(lockPick.GetComponent<MeshRenderer>().material.DOColor(Color.red, 0.75f));
+                mySequence.Join(leftWall.GetComponent<MeshRenderer>().material.DOColor(Color.red, 0.75f));
+                mySequence.Join(leftWall.transform.DOShakeRotation(0.75f, 0.75f));
+                mySequence.Append(lockPick.GetComponent<MeshRenderer>().material.DOColor(Color.white, 0.75f).OnComplete(Charge));
+                mySequence.Join(leftWall.GetComponent<MeshRenderer>().material.DOColor(Color.white, 0.75f));
+            }
+        }
 
         foreach(Piece piece in pieces)
         {
@@ -159,6 +123,5 @@ public class Lock : MonoBehaviour
     public void Move(Side side)
     {
         pieces[index].Move(side);
-        //lockPick.Move(side);
     }
 }

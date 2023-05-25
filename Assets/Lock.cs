@@ -5,7 +5,9 @@ using DG.Tweening;
 
 public class Lock : MonoBehaviour
 {
+    public int pieceAmount = 3;
     public Piece[] pieces;
+    public Material[] materials;
     private int index = 0;
     public GameObject locker;
 
@@ -17,10 +19,27 @@ public class Lock : MonoBehaviour
     public GameObject leftWall;
     public GameObject rightWall;
 
+    public Piece piecePrefab;
+
     public enum Side
     {
         Right,
         Left
+    }
+
+    private void Awake()
+    {
+        pieces = new Piece[pieceAmount];
+        for (int i = 0; i < pieceAmount; i++)
+        {
+            Piece piece = Instantiate(piecePrefab, new Vector3(0.0f, 0.0f, i * 0.5f), Quaternion.Euler(0, 0, 5 * i));
+            piece.mat = materials[i];
+            pieces[i] = piece;
+        }
+
+        pieces[2].connections.Add(new Connection(pieces[1]));
+        pieces[3].connections.Add(new Connection(pieces[2]));
+
     }
 
     void Start()

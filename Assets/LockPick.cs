@@ -16,8 +16,5 @@ public class LockPick : MonoBehaviour
         {
             SceneManager.LoadScene(0);
         }
-
     }
-
-
 }

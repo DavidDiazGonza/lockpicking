@@ -3,15 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
+
+public class Connection : MonoBehaviour
+{
+    public Piece piece;
+    public bool isInverted = false;
+
+    public Connection(Piece piece, bool isInverted = false)
+    {
+        this.piece = piece;
+        this.isInverted = isInverted;
+    }
+}
+
 public class Piece : MonoBehaviour
 {
-    public Piece[] pieces;
+    public List <Connection> connections;
     public Material mat;
-    // Start is called before the first frame update
+    public GameObject[] parts = new GameObject[3];
     public bool open = false;
     public bool selected = false;
 
-    // Update is called once per frame
+    public void Start()
+    {
+        foreach (GameObject part in parts)
+        {
+            part.GetComponent<MeshRenderer>().material = mat;
+        }
+    }
+
     void Update()
     {
         if (transform.rotation.z <= 0.02f && transform.rotation.z >= -0.02f)
@@ -33,11 +53,11 @@ public class Piece : MonoBehaviour
 
     public bool CheckMovement(Lock.Side side)
     {
-        if (pieces.Length > 0)
+        if (connections.Count > 0)
         {
-            foreach (Piece piece in pieces)
+            foreach (Connection connection in connections)
             {
-                if (!piece.CheckMovement(side))
+                if (!connection.piece.CheckMovement(side))
                 {
                     return false;
                 }
@@ -65,11 +85,11 @@ public class Piece : MonoBehaviour
 
     public void Move(Lock.Side side)
     {
-        if (pieces.Length > 0)
+        if (connections.Count > 0)
         {
-            foreach (Piece piece in pieces)
+            foreach (Connection connection in connections)
             {
-                piece.Move(side);
+                connection.piece.Move(side);
             }
         }
 
@@ -82,5 +102,10 @@ public class Piece : MonoBehaviour
             transform.Rotate(Vector3.forward*5);
         }
     }   
+
+    public Lock.Side CheckSide(Lock.Side side, bool isInverted)
+    {
+        return side;
+    }
 }
 

@@ -11,7 +11,7 @@ public static class SaverManager
 
     public static void Save(SavedData savedData)
     {
-        string dir = Application.persistentDataPath + directory;
+        string dir = Application.streamingAssetsPath + directory;
 
         if (!Directory.Exists(dir))
         {
@@ -24,7 +24,7 @@ public static class SaverManager
 
     public static SavedData Load()
     {
-        string fullPath = Application.persistentDataPath + directory + fileName;
+        string fullPath = Application.streamingAssetsPath + directory + fileName;
         SavedData savedData = new SavedData();
 
         if (File.Exists(fullPath))

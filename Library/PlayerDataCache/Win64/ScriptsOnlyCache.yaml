@@ -1049,4 +1049,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/menu.unity
   - Assets/Scenes/LockPickingScene.unity
-  playerPath: C:/Users/DDiaz/Desktop/lockpick_prototype.exe
+  playerPath: C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype.exe

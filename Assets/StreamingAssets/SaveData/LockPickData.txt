@@ -1,0 +1,60 @@
+{
+    "levels": [
+        {
+            "levelName": "level-1",
+            "difficulty": "easy",
+            "pieces": [
+                {
+                    "pieceName": "piece1",
+                    "rotation": 5,
+                    "connections": []
+                },
+                {
+                    "pieceName": "piece2",
+                    "rotation": 15,
+                    "connections": [
+                        {
+                            "piece": "piece1",
+                            "isInverted": true
+                        }
+                    ]
+                },
+                {
+                    "pieceName": "piece3",
+                    "rotation": -15,
+                    "connections": []
+                }
+            ]
+        },
+        {
+            "levelName": "level-2",
+            "difficulty": "hard",
+            "pieces": [
+                {
+                    "pieceName": "piece1",
+                    "rotation": 5,
+                    "connections": []
+                },
+                {
+                    "pieceName": "piece2",
+                    "rotation": 15,
+                    "connections": [
+                        {
+                            "piece": "piece1",
+                            "isInverted": true
+                        },
+                        {
+                            "piece": "piece3",
+                            "isInverted": true
+                        }
+                    ]
+                },
+                {
+                    "pieceName": "piece3",
+                    "rotation": -15,
+                    "connections": []
+                }
+            ]
+        }
+    ]
+}

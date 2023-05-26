@@ -29,17 +29,32 @@ public class Lock : MonoBehaviour
 
     private void Awake()
     {
-        pieces = new Piece[pieceAmount];
-        for (int i = 0; i < pieceAmount; i++)
+        Level level = SaverManager.Load();
+
+
+        if(level != null)
         {
-            Piece piece = Instantiate(piecePrefab, new Vector3(0.0f, 0.0f, i * 0.5f), Quaternion.Euler(0, 0, 5 * i));
-            piece.mat = materials[i];
-            pieces[i] = piece;
+            pieces = new Piece[level.pieces.Count];
+            for (int i = 0; i < level.pieces.Count; i++)
+            {
+                Piece piece = Instantiate(piecePrefab, new Vector3(0.0f, 0.0f, i * 0.5f), Quaternion.Euler(0, 0, level.pieces[i].rotation));
+                piece.mat = materials[i];
+                pieces[i] = piece;
+            }
+
+            for (int j = 0; j < level.pieces.Count; j++)
+            {
+                if(level.pieces[j].connections != null)
+                {
+                    foreach (ConnectionData data in level.pieces[j].connections)
+                    {
+                        int value = data.piece[data.piece.Length - 1] - '0';
+                        Debug.LogError(data.piece + " " + value);
+                        pieces[j].connections.Add(new Connection(pieces[value -1], data.isInverted));
+                    }
+                }
+            }
         }
-
-        pieces[2].connections.Add(new Connection(pieces[1]));
-        pieces[3].connections.Add(new Connection(pieces[2]));
-
     }
 
     void Start()
@@ -50,7 +65,23 @@ public class Lock : MonoBehaviour
 
     void Update()
     {
-        if(open)
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+
+            List<ConnectionData> connections = new List<ConnectionData>();
+            connections.Add(new ConnectionData("piece1", true));
+
+            List<PieceData> entries = new List<PieceData>();
+            entries.Add(new PieceData("piece1", 5));
+            entries.Add(new PieceData("piece2", 15, connections));
+            entries.Add(new PieceData("piece3", -15));
+            Level level = new Level("level-1", entries);
+
+            SaverManager.Save(level);
+        }
+
+
+        if (open)
         {
             return;
         }
@@ -86,7 +117,6 @@ public class Lock : MonoBehaviour
                 Move(Side.Right);
                 lockPick.GetComponent<MeshRenderer>().material.color = lockpickColor;
             }
-
             else
             {
                 Sequence mySequence = DOTween.Sequence();

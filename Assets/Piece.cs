@@ -57,7 +57,7 @@ public class Piece : MonoBehaviour
         {
             foreach (Connection connection in connections)
             {
-                if (!connection.piece.CheckMovement(side))
+                if (!connection.piece.CheckMovement(CheckSide(side, connection.isInverted)))
                 {
                     return false;
                 }
@@ -89,7 +89,7 @@ public class Piece : MonoBehaviour
         {
             foreach (Connection connection in connections)
             {
-                connection.piece.Move(side);
+                connection.piece.Move(CheckSide(side,connection.isInverted));
             }
         }
 
@@ -105,6 +105,18 @@ public class Piece : MonoBehaviour
 
     public Lock.Side CheckSide(Lock.Side side, bool isInverted)
     {
+        if (isInverted)
+        {
+            if (side == Lock.Side.Left)
+            {
+                return Lock.Side.Right;
+            }
+            else
+            {
+                return Lock.Side.Left;
+            }
+        }
+
         return side;
     }
 }

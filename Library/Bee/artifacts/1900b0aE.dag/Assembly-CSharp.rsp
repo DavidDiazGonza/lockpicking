@@ -354,10 +354,12 @@
 "Assets/DOTween/Modules/DOTweenModuleUI.cs"
 "Assets/DOTween/Modules/DOTweenModuleUnityVersion.cs"
 "Assets/DOTween/Modules/DOTweenModuleUtils.cs"
+"Assets/Level.cs"
 "Assets/Lock.cs"
 "Assets/LockPick.cs"
 "Assets/Menu.cs"
 "Assets/Piece.cs"
+"Assets/SaverManager.cs"
 -langversion:9.0
 
 /deterministic

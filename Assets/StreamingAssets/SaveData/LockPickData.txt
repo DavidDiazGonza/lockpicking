@@ -28,6 +28,36 @@
         },
         {
             "levelName": "level-2",
+            "difficulty": "medium",
+            "pieces": [
+                {
+                    "pieceName": "piece1",
+                    "rotation": 5,
+                    "connections": []
+                },
+                {
+                    "pieceName": "piece2",
+                    "rotation": 15,
+                    "connections": [
+                        {
+                            "piece": "piece1",
+                            "isInverted": true
+                        },
+                        {
+                            "piece": "piece3",
+                            "isInverted": true
+                        }
+                    ]
+                },
+                {
+                    "pieceName": "piece3",
+                    "rotation": -15,
+                    "connections": []
+                }
+            ]
+        },
+        {
+            "levelName": "level-3",
             "difficulty": "hard",
             "pieces": [
                 {
@@ -52,6 +82,26 @@
                 {
                     "pieceName": "piece3",
                     "rotation": -15,
+                    "connections": []
+                },
+                {
+                    "pieceName": "piece4",
+                    "rotation": -25,
+                    "connections": [
+                        {
+                            "piece": "piece1",
+                            "isInverted": true
+                        },
+                        {
+                            "piece": "piece5",
+                            "isInverted": false
+                        }
+                    ]
+                }
+                ,
+                {
+                    "pieceName": "piece5",
+                    "rotation": 25,
                     "connections": []
                 }
             ]

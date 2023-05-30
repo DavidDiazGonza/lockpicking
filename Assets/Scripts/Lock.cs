@@ -62,6 +62,26 @@ public class Lock : MonoBehaviour
         }
     }
 
+    public void ChangeExpertise(int value)
+    {
+        int counter = value;
+        foreach (Piece piece in pieces)
+        {
+            if(counter > 0)
+            {
+                if(piece.connections.Count > 0)
+                {
+                    piece.connections.RemoveAt(0);
+                    counter--;
+                }
+            }
+            else
+            {
+                return;
+            }
+        }
+    }
+
     void Start()
     {
         pieces[index].selected = true;

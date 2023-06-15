@@ -27,7 +27,7 @@ public class Menu : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        /*if (Input.GetKeyDown(KeyCode.P))
         {
             List<ConnectionData> connections = new List<ConnectionData>();
             connections.Add(new ConnectionData("piece1", true));
@@ -54,7 +54,7 @@ public class Menu : MonoBehaviour
             levelList.Add(level2);
 
             SaverManager.Save(new SavedData(levelList));
-        }
+        }*/
     }
 
     public void OpenLevel(int id)

@@ -103,6 +103,12 @@
                     "rotation": -25,
                     "connections": []
                 }
+                ,
+                {
+                    "pieceName": "piece6",
+                    "rotation": -25,
+                    "connections": []
+                }
             ]
         }
     ]

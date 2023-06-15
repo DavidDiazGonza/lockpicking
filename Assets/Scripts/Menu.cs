@@ -12,14 +12,15 @@ public class Menu : MonoBehaviour
 
     private void Start()
     {
-        SavedData savedData = SaverManager.Load();
+        SavedData savedData = SaverManager.Load(); //
 
         for (int i = 0; i< savedData.levels.Count; i++)
         {
             GameObject newButton = Instantiate(buttonPrefab, buttonParent.transform);
             newButton.transform.GetChild(0).GetComponent<TextMeshProUGUI>().SetText(savedData.levels[i].levelName);
             newButton.transform.GetChild(1).GetComponent<TextMeshProUGUI>().SetText(savedData.levels[i].difficulty);
-            int value = savedData.levels[i].levelName[savedData.levels[i].levelName.Length - 1] - '0';
+            string[] parts = savedData.levels[i].levelName.Split('-');
+            int value = int.Parse(parts[parts.Length - 1]);
             newButton.GetComponent<Button>().onClick.AddListener(() => OpenLevel(value));
         }
     }

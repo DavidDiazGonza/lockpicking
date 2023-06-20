@@ -30,25 +30,8 @@ public class Piece : MonoBehaviour
         {
             part.GetComponent<MeshRenderer>().material = mat;
         }
-    }
 
-    void Update()
-    {
-        if (transform.rotation.z <= 0.02f && transform.rotation.z >= -0.02f)
-        {
-            mat.color = Color.green;
-            open = true;
-         }
-         else if (selected)
-         {
-            mat.color = Color.blue;
-            open = false;
-         }
-         else
-         {
-             mat.color = Color.grey;
-             open = false;
-         }
+        UpdateColor();
     }
 
     public bool CheckMovement(Lock.Side side)
@@ -59,6 +42,7 @@ public class Piece : MonoBehaviour
             {
                 if (!connection.piece.CheckMovement(CheckSide(side, connection.isInverted)))
                 {
+                    //this.mat.DOColor(Color.red, 1).OnComplete(UpdateColor);
                     return false;
                 }
             }
@@ -78,7 +62,22 @@ public class Piece : MonoBehaviour
                 return true;
             }
         }
-        this.mat.DOColor(Color.red, 1);
+
+        Sequence mySequence = DOTween.Sequence();
+        mySequence.Append(this.mat.DOColor(Color.red, 1).OnComplete(UpdateColor));
+        Lock tempLock = GameObject.Find("Lock").GetComponent<Lock>();
+        if(side == Lock.Side.Right)
+        {
+            mySequence.Join(tempLock.rightWall.GetComponent<MeshRenderer>().material.DOColor(Color.red, 0.75f));
+            mySequence.Join(tempLock.rightWall.transform.DOShakeRotation(0.75f, 0.75f));
+            mySequence.Append(tempLock.rightWall.GetComponent<MeshRenderer>().material.DOColor(Color.white, 0.75f));
+        }
+        else
+        {
+            mySequence.Join(tempLock.leftWall.GetComponent<MeshRenderer>().material.DOColor(Color.red, 0.75f));
+            mySequence.Join(tempLock.leftWall.transform.DOShakeRotation(0.75f, 0.75f));
+            mySequence.Append(tempLock.leftWall.GetComponent<MeshRenderer>().material.DOColor(Color.white, 0.75f));
+        }
 
         return false;
     }
@@ -101,6 +100,8 @@ public class Piece : MonoBehaviour
         {
             transform.Rotate(Vector3.forward*5);
         }
+
+        UpdateColor();
     }   
 
     public Lock.Side CheckSide(Lock.Side side, bool isInverted)
@@ -118,6 +119,25 @@ public class Piece : MonoBehaviour
         }
 
         return side;
+    }
+
+    public void UpdateColor()
+    {
+        if (transform.rotation.z <= 0.02f && transform.rotation.z >= -0.02f)
+        {
+            mat.color = Color.green;
+            open = true;
+        }
+        else
+        {
+            mat.color = Color.grey;
+            open = false;
+        }
+
+        for(int i = 0; i < parts.Length; i++)
+        {
+            parts[i].GetComponent<Outline>().enabled = selected;
+        }
     }
 }
 

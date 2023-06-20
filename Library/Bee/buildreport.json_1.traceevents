@@ -1,532 +1,401 @@
 ﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1685111745180418, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685111745182026, "dur": 25212, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685111745207518, "dur": 386404, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685111745593944, "dur": 10401, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685111748829006, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685111748829261, "dur": 11321, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685111748840587, "dur": 31442, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685111748872081, "dur": 201722, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685111749073806, "dur": 255231, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685111749329041, "dur": 12721, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685111749342190, "dur": 69, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
-{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
-{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1685111748965884, "dur": 91801, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1685111748966733, "dur": 36853, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1685111749044479, "dur": 3923, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1685111749048404, "dur": 9274, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1685111749048943, "dur": 8106, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1685111749061727, "dur": 1134, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1685111749061021, "dur": 1860, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685111749342335, "dur": 158, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687262350000863, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687262350002166, "dur": 34721, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687262350037385, "dur": 65130, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687262350102535, "dur": 231069, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687262350333608, "dur": 727824, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687262351061452, "dur": 10609, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687262356271128, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687262356271429, "dur": 17684, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687262356289117, "dur": 704636, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687262356993757, "dur": 16370, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687262357010839, "dur": 126, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1685111749112035, "dur":4057, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749116098, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1685111749116145, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1685111749116161, "dur":479, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1685111749116662, "dur":488, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749117150, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749313813, "dur":385, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314198, "dur":29, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314227, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314232, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314248, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314250, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314273, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314275, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314287, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314289, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314295, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314296, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314303, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314304, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314311, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314313, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314318, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314319, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314325, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314327, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314332, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314334, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314339, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314341, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314346, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314348, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314353, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314355, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314361, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314362, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314368, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314369, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314376, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314386, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749314390, "dur":4346, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1685111749116862, "dur":294, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685111749117158, "dur":2906, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685111749120075, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1685111749120076, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685111749120114, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1685111749120117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685111749120474, "dur":3035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1685111749123512, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1685111749123568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685111749123573, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1685111749124801, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":1, "ts":1685111749124849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685111749124911, "dur":9999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":1, "ts":1685111749134993, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685111749135015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685111749135022, "dur":4354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685111749139554, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685111749139573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685111749139578, "dur":3759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685111749143353, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685111749143386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685111749143392, "dur":3701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685111749147107, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685111749147124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685111749147129, "dur":2750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685111749149891, "dur":162616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685111749312515, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685111749312525, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685111749313773, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":1, "ts":1685111749313775, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685111749116894, "dur":270, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685111749117164, "dur":2911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685111749120076, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1685111749120172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685111749120739, "dur":2987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1685111749123793, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype.exe" }}
-,{ "pid":12345, "tid":2, "ts":1685111749123847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685111749123851, "dur":6590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype.exe" }}
-,{ "pid":12345, "tid":2, "ts":1685111749130465, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685111749130491, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685111749130498, "dur":3136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685111749133649, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685111749133671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685111749133677, "dur":3946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685111749137640, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685111749137658, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685111749137681, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685111749139971, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685111749140508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685111749140514, "dur":4125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685111749144655, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685111749144672, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685111749144677, "dur":3823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685111749148516, "dur":75672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685111749224192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685111749224199, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685111749225665, "dur":88154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685111749116961, "dur":221, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685111749117183, "dur":2902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685111749120086, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1685111749120233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685111749135934, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1685111749137566, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685111749137584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685111749137589, "dur":2334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685111749139938, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685111749139962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685111749139967, "dur":3612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685111749143598, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685111749143614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685111749143621, "dur":3458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685111749147094, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685111749147112, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685111749147118, "dur":3062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685111749150193, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685111749150242, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685111749150316, "dur":2218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685111749152548, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685111749152563, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685111749152568, "dur":2442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685111749155026, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685111749155041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685111749155046, "dur":4831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685111749159893, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1685111749159973, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685111749159977, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1685111749162551, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":3, "ts":1685111749162567, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685111749162571, "dur":2362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":3, "ts":1685111749164945, "dur":148873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685111749116888, "dur":272, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685111749117160, "dur":2926, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685111749120086, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1685111749120187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685111749121027, "dur":2595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1685111749123750, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685111749123814, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685111749123820, "dur":6942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685111749130819, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685111749130838, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685111749130857, "dur":3221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685111749134091, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685111749134106, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685111749134110, "dur":3499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685111749137626, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685111749137643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685111749137650, "dur":2611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685111749140279, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685111749140299, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685111749140305, "dur":4133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685111749144474, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685111749144498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685111749144510, "dur":3297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685111749147819, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685111749147836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685111749147843, "dur":4665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685111749152522, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685111749152536, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685111749152558, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685111749155536, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685111749155553, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685111749155558, "dur":3388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685111749158962, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":4, "ts":1685111749158980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685111749158987, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":4, "ts":1685111749160563, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1685111749160594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685111749160599, "dur":3732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1685111749164343, "dur":149465, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685111749116924, "dur":246, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685111749117170, "dur":2919, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685111749120090, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1685111749120202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685111749121641, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1685111749123602, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":5, "ts":1685111749123739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685111749123746, "dur":6755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":5, "ts":1685111749130634, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685111749130662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685111749130668, "dur":3282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685111749133967, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685111749133986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685111749133992, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685111749136985, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685111749137003, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685111749137008, "dur":6024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685111749143049, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685111749143067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685111749143073, "dur":4027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685111749147119, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685111749147323, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685111749147329, "dur":3214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685111749150557, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685111749150571, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685111749150591, "dur":2962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685111749153572, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685111749153596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685111749153601, "dur":5440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685111749159196, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1685111749159217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685111749159222, "dur":2932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1685111749162167, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1685111749162182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685111749162186, "dur":2434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1685111749164633, "dur":149182, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685111749116959, "dur":218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685111749117177, "dur":2900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685111749120078, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1685111749120193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685111749121323, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1685111749123620, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":6, "ts":1685111749123705, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685111749123717, "dur":6567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":6, "ts":1685111749130348, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685111749130371, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685111749130377, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685111749132271, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685111749132295, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685111749132301, "dur":3429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685111749135745, "dur":117848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685111749253599, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685111749253607, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685111749254561, "dur":59253, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685111749116994, "dur":194, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685111749117188, "dur":2888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685111749120077, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1685111749120251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685111749136425, "dur":1608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1685111749138079, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685111749138096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685111749138100, "dur":3433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685111749141549, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685111749141566, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685111749141571, "dur":3868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685111749145460, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685111749145480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685111749145487, "dur":2920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685111749148422, "dur":81735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685111749230161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685111749230168, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685111749231252, "dur":82580, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685111749117021, "dur":171, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685111749117192, "dur":2886, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685111749120079, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1685111749120188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685111749121193, "dur":2528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1685111749123789, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":8, "ts":1685111749123845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685111749123850, "dur":7810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":8, "ts":1685111749131725, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685111749131756, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685111749131763, "dur":3142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685111749134921, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685111749134939, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685111749134944, "dur":4640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685111749139598, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685111749139617, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685111749139622, "dur":3800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685111749143436, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685111749143453, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685111749143458, "dur":4370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685111749147842, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685111749147858, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685111749147862, "dur":4391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685111749152280, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685111749152329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685111749152334, "dur":3601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685111749155949, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685111749155965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685111749155970, "dur":3696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685111749159680, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1685111749159695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685111749159700, "dur":4386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1685111749164100, "dur":149709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685111749117048, "dur":148, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685111749117197, "dur":2884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685111749120084, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1685111749120203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685111749127966, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1685111749129290, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685111749129324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685111749129331, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685111749131902, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685111749131921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685111749131926, "dur":3413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685111749135358, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685111749135373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685111749135381, "dur":3471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685111749138869, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685111749138886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685111749138891, "dur":3304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685111749142211, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685111749142251, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685111749142257, "dur":4473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685111749146749, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685111749146787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685111749146793, "dur":4470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685111749151276, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685111749151292, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685111749151296, "dur":2968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685111749154278, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685111749154342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685111749154347, "dur":5975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685111749160339, "dur":4085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":9, "ts":1685111749164428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685111749164434, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":9, "ts":1685111749165618, "dur":148213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685111749117072, "dur":129, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685111749117202, "dur":2884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685111749120090, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":10, "ts":1685111749120197, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685111749121620, "dur":2030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":10, "ts":1685111749123752, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685111749123842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685111749123846, "dur":23478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685111749147410, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685111749147433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685111749147438, "dur":2995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685111749150457, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685111749150480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685111749150484, "dur":2848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685111749153346, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685111749153366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685111749153370, "dur":4190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685111749157580, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/DOTween.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685111749157602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685111749157610, "dur":4158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/DOTween.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685111749161784, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/level0.resS" }}
-,{ "pid":12345, "tid":10, "ts":1685111749161802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685111749161807, "dur":2035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/level0.resS" }}
-,{ "pid":12345, "tid":10, "ts":1685111749163863, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/boot.config" }}
-,{ "pid":12345, "tid":10, "ts":1685111749163970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685111749163974, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/boot.config" }}
-,{ "pid":12345, "tid":10, "ts":1685111749164977, "dur":148835, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685111749117090, "dur":116, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685111749117207, "dur":2875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685111749120083, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1685111749120210, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685111749128384, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1685111749130443, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685111749130476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685111749130484, "dur":2909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685111749133415, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685111749133435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685111749133443, "dur":2551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685111749136012, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685111749136033, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685111749136038, "dur":2904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685111749138955, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685111749139367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685111749139374, "dur":3257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685111749142646, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685111749142662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685111749142668, "dur":3664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685111749146347, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685111749146363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685111749146369, "dur":3310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685111749149692, "dur":69540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685111749219267, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685111749219277, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685111749220430, "dur":93386, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685111749117112, "dur":100, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685111749117212, "dur":2876, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685111749120089, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":12, "ts":1685111749120220, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685111749135743, "dur":1889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":12, "ts":1685111749137684, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685111749137709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685111749137714, "dur":2461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685111749140201, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685111749140222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685111749140227, "dur":3663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685111749143910, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685111749143931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685111749143936, "dur":3535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685111749147486, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685111749147500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685111749147506, "dur":3567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685111749151087, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685111749151103, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685111749151107, "dur":3945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685111749155067, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685111749155084, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685111749155110, "dur":3549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685111749158674, "dur":71046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685111749229725, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685111749229734, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685111749230772, "dur":83067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1685111749117136, "dur":81, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1685111749117217, "dur":2857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1685111749120087, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1685111749120244, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1685111749136147, "dur":1790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1685111749138000, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1685111749138022, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1685111749138027, "dur":2712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1685111749140758, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1685111749140788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1685111749140793, "dur":3651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1685111749144871, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":13, "ts":1685111749144890, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1685111749144895, "dur":3318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":13, "ts":1685111749148227, "dur":47265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":13, "ts":1685111749195499, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1685111749195510, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":13, "ts":1685111749196767, "dur":117054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1685111749117161, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1685111749117161, "dur":2910, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1685111749120075, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":14, "ts":1685111749120178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1685111749120869, "dur":2717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":14, "ts":1685111749123648, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":14, "ts":1685111749123719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1685111749123785, "dur":2988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":14, "ts":1685111749126842, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1685111749126873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1685111749126942, "dur":5066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1685111749132026, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1685111749132045, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1685111749132050, "dur":3371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1685111749135436, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1685111749135453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1685111749135459, "dur":6272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1685111749141744, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1685111749141766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1685111749141772, "dur":4354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1685111749146146, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1685111749146164, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1685111749146169, "dur":4066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1685111749150362, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":14, "ts":1685111749150378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1685111749150383, "dur":5275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":14, "ts":1685111749155671, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":14, "ts":1685111749155686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1685111749155693, "dur":3200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":14, "ts":1685111749158910, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/StreamingAssets/SaveData/LockPickData.txt" }}
-,{ "pid":12345, "tid":14, "ts":1685111749159008, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1685111749159650, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/StreamingAssets/SaveData/LockPickData.txt" }}
-,{ "pid":12345, "tid":14, "ts":1685111749161001, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/resources.assets" }}
-,{ "pid":12345, "tid":14, "ts":1685111749161016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1685111749161020, "dur":2758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/resources.assets" }}
-,{ "pid":12345, "tid":14, "ts":1685111749163796, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":14, "ts":1685111749163811, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1685111749163815, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":14, "ts":1685111749165522, "dur":148302, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1685111749117190, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1685111749117191, "dur":2905, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1685111749120096, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":15, "ts":1685111749120250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1685111749136647, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":15, "ts":1685111749138292, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1685111749138309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1685111749138313, "dur":3368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1685111749141702, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1685111749141720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1685111749141725, "dur":3990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1685111749145731, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1685111749145843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1685111749145849, "dur":4713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1685111749150574, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":15, "ts":1685111749150588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1685111749150593, "dur":3519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":15, "ts":1685111749154127, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":15, "ts":1685111749154145, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1685111749154150, "dur":5071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":15, "ts":1685111749159235, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":15, "ts":1685111749159253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1685111749159258, "dur":2388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":15, "ts":1685111749161660, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/level1" }}
-,{ "pid":12345, "tid":15, "ts":1685111749161674, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1685111749161678, "dur":3954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/level1" }}
-,{ "pid":12345, "tid":15, "ts":1685111749165644, "dur":148178, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1685111749117231, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1685111749117231, "dur":2839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1685111749120076, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":16, "ts":1685111749120206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1685111749128218, "dur":3453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":16, "ts":1685111749131730, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1685111749131759, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1685111749131764, "dur":3166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1685111749134943, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1685111749134958, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1685111749134963, "dur":3549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1685111749138527, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1685111749138545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1685111749138550, "dur":3393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1685111749141960, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1685111749141978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1685111749141983, "dur":3790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1685111749145788, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1685111749145806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1685111749145812, "dur":3799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1685111749149624, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":16, "ts":1685111749149642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1685111749149648, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":16, "ts":1685111749151595, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":16, "ts":1685111749151609, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1685111749151613, "dur":4281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":16, "ts":1685111749155908, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":16, "ts":1685111749155925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1685111749155931, "dur":8325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":16, "ts":1685111749164269, "dur":149541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685111749319660, "dur":1499, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1685111749342543, "dur": 773, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1685111749342163, "dur": 1175, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1687262356322687, "dur":790, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356323487, "dur":230, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1687262356323746, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1687262356323765, "dur":483, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1687262356324278, "dur":510, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356324788, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968278, "dur":400, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968678, "dur":38, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968716, "dur":61, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968778, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968787, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968790, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968796, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968798, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968804, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968805, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968811, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968813, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968819, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968821, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968826, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968828, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968835, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968837, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968843, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968845, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968851, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968853, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968860, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968862, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968868, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968869, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968875, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968876, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968884, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968886, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968892, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968894, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968902, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968920, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356968944, "dur":1238, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1687262356324435, "dur":360, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687262356324797, "dur":6567, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687262356331388, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1687262356331389, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687262356331461, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1687262356331475, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687262356331902, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1687262356334202, "dur":47990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687262356382193, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687262356382298, "dur":93425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687262356475725, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687262356475890, "dur":39220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687262356515110, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687262356515221, "dur":31128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687262356546351, "dur":421, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687262356546774, "dur":96164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687262356642938, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687262356643086, "dur":184521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687262356827607, "dur":323, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687262356827931, "dur":140417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687262356324471, "dur":336, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687262356324807, "dur":6576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687262356331387, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1687262356331540, "dur":369, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687262356331910, "dur":50166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687262356382077, "dur":1465, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687262356383546, "dur":23940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687262356407487, "dur":358, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687262356407846, "dur":47596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687262356455443, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687262356455631, "dur":26352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687262356481985, "dur":443, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687262356482433, "dur":101774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687262356584209, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687262356584383, "dur":90635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687262356675020, "dur":359, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687262356675383, "dur":151496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687262356826881, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687262356827078, "dur":141266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687262356324461, "dur":340, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687262356324801, "dur":6583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687262356331385, "dur":11165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1687262356342551, "dur":243, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687262356342795, "dur":43577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687262356386373, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687262356386474, "dur":48365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687262356434840, "dur":511, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687262356435355, "dur":24606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687262356459963, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687262356460131, "dur":42291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687262356502423, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687262356502501, "dur":38814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687262356541317, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687262356541490, "dur":155378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687262356696868, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687262356697087, "dur":147623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687262356844711, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687262356844920, "dur":123394, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687262356324496, "dur":317, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687262356324813, "dur":6576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687262356331390, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1687262356331826, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687262356332044, "dur":38495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype.exe" }}
+,{ "pid":12345, "tid":4, "ts":1687262356370540, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687262356370630, "dur":27340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687262356397971, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687262356398195, "dur":44923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687262356443119, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687262356443270, "dur":47986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687262356491257, "dur":1375, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687262356492636, "dur":23705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687262356516343, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687262356516516, "dur":110695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687262356627211, "dur":1982, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687262356629195, "dur":49060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687262356678255, "dur":391, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687262356678650, "dur":156347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687262356834999, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687262356835237, "dur":133086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687262356324524, "dur":294, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687262356324818, "dur":6573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687262356331391, "dur":11315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1687262356342706, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687262356342928, "dur":27704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687262356370633, "dur":439, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687262356371074, "dur":26200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687262356397274, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687262356397451, "dur":27139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687262356424591, "dur":342, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687262356424940, "dur":44566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687262356469507, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687262356469604, "dur":32292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687262356501898, "dur":385, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687262356502288, "dur":24678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687262356526967, "dur":428, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687262356527397, "dur":51759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687262356579157, "dur":501, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687262356579660, "dur":224250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687262356803911, "dur":438, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687262356804353, "dur":163922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687262356324551, "dur":273, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687262356324825, "dur":6562, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687262356331389, "dur":10961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1687262356342352, "dur":438, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687262356342794, "dur":29217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687262356372012, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687262356372113, "dur":25159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687262356397273, "dur":282, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687262356397557, "dur":42006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687262356439563, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687262356439664, "dur":26941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687262356466606, "dur":392, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687262356467002, "dur":30725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687262356497729, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687262356497903, "dur":28378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687262356526283, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687262356526475, "dur":51544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687262356578020, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687262356578199, "dur":302066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687262356880265, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687262356880352, "dur":87933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687262356324576, "dur":254, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687262356324830, "dur":6564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687262356331394, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1687262356331514, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687262356331609, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1687262356331977, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687262356332078, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1687262356332143, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687262356332415, "dur":33698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687262356366114, "dur":3873, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687262356369993, "dur":37441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687262356407435, "dur":399, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687262356407839, "dur":98977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687262356506817, "dur":480, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687262356507300, "dur":37172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687262356544473, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687262356544561, "dur":58891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687262356603453, "dur":357, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687262356603815, "dur":38325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687262356642140, "dur":255, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687262356642396, "dur":200429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687262356842826, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687262356843164, "dur":125154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356324599, "dur":236, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356324835, "dur":6547, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356331385, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1687262356331776, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356332001, "dur":85780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1687262356417782, "dur":408, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356418197, "dur":58421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687262356476619, "dur":304, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356476925, "dur":25269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687262356502194, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356502452, "dur":68988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687262356571442, "dur":263, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356571710, "dur":109215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687262356680926, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356681073, "dur":99455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687262356780529, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356780728, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/StreamingAssets/SaveData/LockPickData.txt" }}
+,{ "pid":12345, "tid":8, "ts":1687262356780875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356780965, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/StreamingAssets/SaveData/LockPickData.txt" }}
+,{ "pid":12345, "tid":8, "ts":1687262356782156, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1687262356782174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356782215, "dur":2681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1687262356784914, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1687262356784929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356784935, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1687262356786811, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1687262356786850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356786855, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1687262356788325, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1687262356788340, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356788344, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1687262356789683, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1687262356789699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356789704, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1687262356790875, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1687262356790891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356790895, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1687262356791693, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1687262356791731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356791735, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1687262356792900, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1687262356792917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687262356792922, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1687262356793950, "dur":174333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687262356324629, "dur":210, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687262356324839, "dur":6539, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687262356331384, "dur":11112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1687262356342497, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687262356342719, "dur":48218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687262356390938, "dur":518, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687262356391460, "dur":135027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687262356526488, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687262356526582, "dur":22993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687262356549576, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687262356549830, "dur":236914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687262356786745, "dur":801, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687262356787547, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1687262356787571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687262356787577, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1687262356789145, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1687262356789221, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687262356789416, "dur":887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1687262356790304, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687262356790391, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1687262356790410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687262356790414, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1687262356791864, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1687262356791879, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687262356791883, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1687262356792884, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1687262356792900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687262356792904, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1687262356793890, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1687262356793977, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687262356794196, "dur":174077, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687262356324650, "dur":195, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687262356324846, "dur":6539, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687262356331388, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1687262356331590, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687262356331917, "dur":115618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687262356447537, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687262356447689, "dur":29796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687262356477486, "dur":317, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687262356477805, "dur":41535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687262356519340, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687262356519629, "dur":27122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687262356546751, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687262356546865, "dur":94954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687262356641820, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687262356641969, "dur":223313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687262356865283, "dur":391, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687262356865676, "dur":102624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687262356324671, "dur":180, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687262356324851, "dur":6537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687262356331393, "dur":589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1687262356331982, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687262356332249, "dur":25079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687262356357329, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687262356357522, "dur":35901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687262356393424, "dur":493, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687262356393921, "dur":148090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687262356542011, "dur":344, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687262356542356, "dur":38651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687262356581008, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687262356581243, "dur":246695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687262356827938, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687262356828022, "dur":140307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687262356324693, "dur":163, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687262356324856, "dur":6515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687262356331383, "dur":43511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1687262356374895, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687262356375024, "dur":74560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687262356449584, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687262356449700, "dur":33385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687262356483085, "dur":6237, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687262356489326, "dur":28482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687262356517809, "dur":402, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687262356518215, "dur":28507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687262356546723, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687262356546874, "dur":78598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687262356625473, "dur":503, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687262356625980, "dur":187457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687262356813439, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687262356813695, "dur":154579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687262356324715, "dur":147, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687262356324862, "dur":6534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687262356331396, "dur":10985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1687262356342382, "dur":408, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687262356342793, "dur":43169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1687262356385963, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687262356386291, "dur":40294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1687262356426585, "dur":680, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687262356427268, "dur":37050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1687262356464320, "dur":1422, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687262356465747, "dur":54624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1687262356520372, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687262356520471, "dur":27114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1687262356547585, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687262356547824, "dur":89716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":13, "ts":1687262356637541, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687262356637721, "dur":218596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1687262356856318, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687262356856469, "dur":111838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687262356324739, "dur":128, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687262356324867, "dur":6513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687262356331385, "dur":11700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1687262356343086, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687262356343180, "dur":123840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1687262356467020, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687262356467234, "dur":56197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1687262356523432, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687262356523644, "dur":56243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1687262356579887, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687262356580080, "dur":192694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1687262356772776, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687262356772983, "dur":102473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1687262356875467, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687262356875573, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1687262356876596, "dur":91697, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687262356324763, "dur":108, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687262356324871, "dur":6506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687262356331384, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1687262356331691, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687262356331764, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1687262356331833, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687262356331918, "dur":257988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687262356589908, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687262356590071, "dur":101539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687262356691611, "dur":337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687262356691952, "dur":275859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687262356967812, "dur":415, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687262356968233, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":15, "ts":1687262356968236, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687262356324796, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687262356324797, "dur":6582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687262356331383, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1687262356331481, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687262356331596, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1687262356331890, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687262356332106, "dur":79355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1687262356411463, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687262356411782, "dur":27253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1687262356439035, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687262356439186, "dur":29170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1687262356468357, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687262356468457, "dur":45129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1687262356513587, "dur":378, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687262356513969, "dur":29630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1687262356543600, "dur":324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687262356543925, "dur":34185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1687262356578111, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687262356578384, "dur":64115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1687262356642500, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687262356642574, "dur":49759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1687262356692334, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687262356692422, "dur":238180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/DDiaz/Desktop/LockpickingTool/lockpick_prototype_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1687262356930604, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687262356930752, "dur":37525, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687262356971646, "dur":1209, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1687262357012449, "dur": 778, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687262357010809, "dur": 2449, "ph": "X", "name": "Write chrome-trace events", "args": {} },

@@ -100,8 +100,10 @@ public class Lock : MonoBehaviour
             if(index+1 < pieces.Length)
             {
                 pieces[index].selected = false;
+                pieces[index].UpdateColor();
                 index++;
                 pieces[index].selected = true;
+                pieces[index].UpdateColor();
                 float position = -2.9f + (index * 0.5f);
                 lockPick.transform.DOMoveZ(position, 0.5f);
             }
@@ -112,8 +114,10 @@ public class Lock : MonoBehaviour
             if (index - 1 >= 0)
             {
                 pieces[index].selected = false;
+                pieces[index].UpdateColor();
                 index--;
                 pieces[index].selected = true;
+                pieces[index].UpdateColor();
                 float position = -2.9f + (index * 0.5f);
                 lockPick.transform.DOMoveZ(position, 0.5f);
             }
@@ -131,10 +135,10 @@ public class Lock : MonoBehaviour
                 Sequence mySequence = DOTween.Sequence();
                 mySequence.Append(lockPick.transform.DOShakeRotation(0.75f, 0.75f));
                 mySequence.Join(lockPick.GetComponent<MeshRenderer>().material.DOColor(Color.red, 0.75f));
-                mySequence.Join(rightWall.GetComponent<MeshRenderer>().material.DOColor(Color.red, 0.75f));
-                mySequence.Join(rightWall.transform.DOShakeRotation(0.75f, 0.75f));
+                //mySequence.Join(rightWall.GetComponent<MeshRenderer>().material.DOColor(Color.red, 0.75f));
+                //mySequence.Join(rightWall.transform.DOShakeRotation(0.75f, 0.75f));
                 mySequence.Append(lockPick.GetComponent<MeshRenderer>().material.DOColor(Color.white, 0.75f).OnComplete(Charge));
-                mySequence.Join(rightWall.GetComponent<MeshRenderer>().material.DOColor(Color.white, 0.75f));
+                //mySequence.Join(rightWall.GetComponent<MeshRenderer>().material.DOColor(Color.white, 0.75f));
             }
         }
         if (Input.GetKeyDown(KeyCode.A))
@@ -149,10 +153,10 @@ public class Lock : MonoBehaviour
                 Sequence mySequence = DOTween.Sequence();
                 mySequence.Append(lockPick.transform.DOShakeRotation(0.75f, 0.75f));
                 mySequence.Join(lockPick.GetComponent<MeshRenderer>().material.DOColor(Color.red, 0.75f));
-                mySequence.Join(leftWall.GetComponent<MeshRenderer>().material.DOColor(Color.red, 0.75f));
-                mySequence.Join(leftWall.transform.DOShakeRotation(0.75f, 0.75f));
+                //mySequence.Join(leftWall.GetComponent<MeshRenderer>().material.DOColor(Color.red, 0.75f));
+                //mySequence.Join(leftWall.transform.DOShakeRotation(0.75f, 0.75f));
                 mySequence.Append(lockPick.GetComponent<MeshRenderer>().material.DOColor(Color.white, 0.75f).OnComplete(Charge));
-                mySequence.Join(leftWall.GetComponent<MeshRenderer>().material.DOColor(Color.white, 0.75f));
+                //mySequence.Join(leftWall.GetComponent<MeshRenderer>().material.DOColor(Color.white, 0.75f));
             }
         }
 
